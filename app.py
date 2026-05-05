@@ -8,7 +8,7 @@ st.set_page_config(page_title="Elektro-KI", page_icon="🔌", layout="centered")
 # ====================== DEIN MODELL ======================
 @st.cache_resource(show_spinner="Lade Electronic Components Model...")
 def load_model():
-    rf = Roboflow(api_key="DEIN_ROBOFLOW_API_KEY_HIER")   # ←←← HIER EINTRAGEN!
+    rf = Roboflow(api_key=zza9zsVKAPFMWMKaebBo)   # ←←← HIER EINTRAGEN!
     
     project = rf.workspace("samu-drioq").project("electronic-components-d6uul")
     model = project.version(1).model          # Version 1 (meistens die aktuelle)
